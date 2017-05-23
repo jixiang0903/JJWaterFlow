@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB8959831ED408C5002B81C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8959821ED408C5002B81C1 /* main.m */; };
+		CB8959861ED408C5002B81C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8959851ED408C5002B81C1 /* AppDelegate.m */; };
+		CB8959891ED408C5002B81C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8959881ED408C5002B81C1 /* ViewController.m */; };
+		CB89598C1ED408C5002B81C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB89598A1ED408C5002B81C1 /* Main.storyboard */; };
+		CB89598E1ED408C5002B81C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB89598D1ED408C5002B81C1 /* Assets.xcassets */; };
+		CB8959911ED408C5002B81C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB89598F1ED408C5002B81C1 /* LaunchScreen.storyboard */; };
+		CB89599E1ED40B59002B81C1 /* JJWaterFlowViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB89599D1ED40B59002B81C1 /* JJWaterFlowViewCell.m */; };
+		CB8959A11ED40F43002B81C1 /* JJWaterFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8959A01ED40F43002B81C1 /* JJWaterFlowView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB89597E1ED408C5002B81C1 /* JJWaterFlowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJWaterFlowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8959821ED408C5002B81C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB8959841ED408C5002B81C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB8959851ED408C5002B81C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB8959871ED408C5002B81C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB8959881ED408C5002B81C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB89598B1ED408C5002B81C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB89598D1ED408C5002B81C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB8959901ED408C5002B81C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB8959921ED408C5002B81C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB89599C1ED40B59002B81C1 /* JJWaterFlowViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJWaterFlowViewCell.h; sourceTree = "<group>"; };
+		CB89599D1ED40B59002B81C1 /* JJWaterFlowViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJWaterFlowViewCell.m; sourceTree = "<group>"; };
+		CB89599F1ED40F43002B81C1 /* JJWaterFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJWaterFlowView.h; sourceTree = "<group>"; };
+		CB8959A01ED40F43002B81C1 /* JJWaterFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJWaterFlowView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB89597B1ED408C5002B81C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB8959751ED408C5002B81C1 = {
+			isa = PBXGroup;
+			children = (
+				CB8959801ED408C5002B81C1 /* JJWaterFlowDemo */,
+				CB89597F1ED408C5002B81C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB89597F1ED408C5002B81C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB89597E1ED408C5002B81C1 /* JJWaterFlowDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB8959801ED408C5002B81C1 /* JJWaterFlowDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CB8959981ED40ABD002B81C1 /* JJWaterFlowView */,
+				CB8959841ED408C5002B81C1 /* AppDelegate.h */,
+				CB8959851ED408C5002B81C1 /* AppDelegate.m */,
+				CB8959871ED408C5002B81C1 /* ViewController.h */,
+				CB8959881ED408C5002B81C1 /* ViewController.m */,
+				CB89598A1ED408C5002B81C1 /* Main.storyboard */,
+				CB89598D1ED408C5002B81C1 /* Assets.xcassets */,
+				CB89598F1ED408C5002B81C1 /* LaunchScreen.storyboard */,
+				CB8959921ED408C5002B81C1 /* Info.plist */,
+				CB8959811ED408C5002B81C1 /* Supporting Files */,
+			);
+			path = JJWaterFlowDemo;
+			sourceTree = "<group>";
+		};
+		CB8959811ED408C5002B81C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB8959821ED408C5002B81C1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB8959981ED40ABD002B81C1 /* JJWaterFlowView */ = {
+			isa = PBXGroup;
+			children = (
+				CB89599F1ED40F43002B81C1 /* JJWaterFlowView.h */,
+				CB8959A01ED40F43002B81C1 /* JJWaterFlowView.m */,
+				CB89599C1ED40B59002B81C1 /* JJWaterFlowViewCell.h */,
+				CB89599D1ED40B59002B81C1 /* JJWaterFlowViewCell.m */,
+			);
+			path = JJWaterFlowView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB89597D1ED408C5002B81C1 /* JJWaterFlowDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB8959951ED408C5002B81C1 /* Build configuration list for PBXNativeTarget "JJWaterFlowDemo" */;
+			buildPhases = (
+				CB89597A1ED408C5002B81C1 /* Sources */,
+				CB89597B1ED408C5002B81C1 /* Frameworks */,
+				CB89597C1ED408C5002B81C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJWaterFlowDemo;
+			productName = JJWaterFlowDemo;
+			productReference = CB89597E1ED408C5002B81C1 /* JJWaterFlowDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB8959761ED408C5002B81C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = jixiang;
+				TargetAttributes = {
+					CB89597D1ED408C5002B81C1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CB8959791ED408C5002B81C1 /* Build configuration list for PBXProject "JJWaterFlowDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB8959751ED408C5002B81C1;
+			productRefGroup = CB89597F1ED408C5002B81C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB89597D1ED408C5002B81C1 /* JJWaterFlowDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB89597C1ED408C5002B81C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8959911ED408C5002B81C1 /* LaunchScreen.storyboard in Resources */,
+				CB89598E1ED408C5002B81C1 /* Assets.xcassets in Resources */,
+				CB89598C1ED408C5002B81C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB89597A1ED408C5002B81C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8959891ED408C5002B81C1 /* ViewController.m in Sources */,
+				CB8959861ED408C5002B81C1 /* AppDelegate.m in Sources */,
+				CB8959A11ED40F43002B81C1 /* JJWaterFlowView.m in Sources */,
+				CB89599E1ED40B59002B81C1 /* JJWaterFlowViewCell.m in Sources */,
+				CB8959831ED408C5002B81C1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB89598A1ED408C5002B81C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB89598B1ED408C5002B81C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB89598F1ED408C5002B81C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB8959901ED408C5002B81C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB8959931ED408C5002B81C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB8959941ED408C5002B81C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB8959961ED408C5002B81C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JJWaterFlowDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jixinagruyi.JJWaterFlowDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB8959971ED408C5002B81C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JJWaterFlowDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jixinagruyi.JJWaterFlowDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB8959791ED408C5002B81C1 /* Build configuration list for PBXProject "JJWaterFlowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8959931ED408C5002B81C1 /* Debug */,
+				CB8959941ED408C5002B81C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB8959951ED408C5002B81C1 /* Build configuration list for PBXNativeTarget "JJWaterFlowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8959961ED408C5002B81C1 /* Debug */,
+				CB8959971ED408C5002B81C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB8959761ED408C5002B81C1 /* Project object */;
+}
